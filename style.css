@@ -1,0 +1,50 @@
+/* main portfolio page styling */
+.body-style,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif
+}
+
+h2{
+    font-weight: bold;
+    position: relative;
+}
+
+.body-style {
+  background-image:url("images/background.png"); 
+  background-blend-mode: luminosity;
+  height: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-color: gainsboro;
+}
+
+.profile-img {
+  width: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border: 5px solid gainsboro;
+}
+
+img.portfolio {
+  width: 100%;
+  position: relative;
+}
+
+.linkedin-icon {
+  margin-top: 10px;
+  text-align: center;
+  position: relative;
+  color: #0072b1
+}
+
+

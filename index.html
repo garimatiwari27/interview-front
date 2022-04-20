@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<title>Garima's Portfolio</title>
+<meta charset="UTF-8">
+<!-- List of all the external libraries for Fonts and Icons -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+  integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+<script src="./script.js"></script>
+
+<!-- Header for the portfolio -->
+<header class="w3-container w3-center" id="Name">
+  <h1 class="w3-jumbo"><b>Garima Tiwari</b></h1>
+  <p>DEVELOPER. LEARNER. PROFESSIONAL.</p>
+</header>
+
+<body class="body-style">
+  <!-- Portfolio Image and LinkedIn icon -->
+  <div class="profile-img">
+    <img class="portfolio" src="images/portfolio_picture.jpg" alt="Garima\'s Portfolio Image" />
+  </div>
+  <div class="linkedin-icon">
+    <a href="https://linkedin.com/in/garima-trivedi/" target="_blank">
+      <i class="fa fa-linkedin-square w3-xxlarge w3-margin-right"></i>
+    </a>
+  </div>
+  <div class="w3-main w3-padding-large">
+
+    <!-- About Me Section -->
+    <div class="w3-content w3-justify w3-text-grey w3-padding-16" id="about-me">
+      <h2>About Me</h2>
+      <hr style="width:100%;text-align:left;margin-left:0; border-top: 2px solid grey;">
+      <p>
+        Java Developer with strong knowledge and working experience in Java Technologies, Team Leadership, Requirements
+        Gathering, Coding, Testing, and Distributed Ledger Technologies (Blockchain). Excellent understanding of
+        software development lifecycle
+        with experience of working in Agile environment and achieving timely results. Quick learner and strong acumen
+        for process improvement, implementing best practices and driving efficiencies by reducing costs.
+      </p><br>
+
+      <!-- Skills sub-section -->
+      <h3>Technical Skills</h3>
+      <p class="w3-justify">Java</p>
+      <div class="w3-light-grey">
+        <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:85%">85%</div>
+      </div>
+      <p class="w3-justify">Database</p>
+      <div class="w3-light-grey">
+        <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:85%">85%</div>
+      </div>
+      <p class="w3-justify">Blockchain</p>
+      <div class="w3-light-grey">
+        <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:75%">75%</div>
+      </div>
+      <p class="w3-justify">C</p>
+      <div class="w3-light-grey">
+        <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:70%">70%</div>
+      </div><br>
+
+      <!-- Work Experience sub-section -->
+      <div>
+        <h3>Past Experience</h3>
+        <p><img src="images/ey-icon.jpg" alt="Ernst & Young Logo" style="width: 40px;"> Ernst &
+          Young, Singapore - Senior Associate (Oct 2018 - Jan 2022)</p>
+        <p><img src="images/cognizant-icon.jpg" alt="Cognizant Logo" style="width: 40px;"> Cognizant
+          Technology Solutions, India - Associate (Sept 2014 - June 2018)</p>
+      </div><br>
+
+      <!-- Hobbies & Interests sub-section -->
+      <div>
+        <h3>Hobbies & Interests</h3>
+        <table style="width: 30%;" class="w3-justify">
+          <tr>
+            <td>
+              <li>Singing</li>
+              <li>Dancing</li>
+              <li>Painting</li>
+            </td>
+            <td>
+              <li>Cooking</li>
+              <li>Travelling</li>
+              <li>Reading</li>
+            </td>
+          </tr>
+        </table>
+      </div><br>
+
+      <!-- Education sub-section -->
+      <div class="education-section">
+        <h3>Education</h3>
+        <p><i class="fas fa-graduation-cap w3-xxlarge w3-margin-right"></i>
+          Bachelor of Technology - Electronics and Communications, (2010 - 2014)
+        </p>
+      </div>
+
+      <!-- Contact Me Section -->
+      <div class="w3-padding-32 w3-content w3-text-grey" id="contact-me-section">
+        <h2>Contact Me</h2>
+        <hr style="width:100%;text-align:left;margin-left:0; border-top: 2px solid grey;">
+        <contact-card
+          contactDetails='{"location":"Windsor, ON, CA","phone":"+1 (226) 975-8557","email":"garima.tiwari0207@gmail.com"}'>
+        </contact-card>
+      </div>
+
+      <!-- Download resume and profile card button -->
+      <div class="w3-padding-16 w3-content w3-text-grey" id="resources-section">
+        <h2>Resources</h2>
+        <hr style="width:100%;text-align:left;margin-left:0; border-top: 2px solid grey;">
+        <a href="files/Garima Tiwari.pdf" download>
+          <button class="w3-button w3-dark-grey w3-margin-top" type="button"><i class="fa fa-download"></i> Download
+            Resume</button>
+        </a>
+
+        <a href="profilecard.html" target="_blank">
+          <button class="w3-button w3-dark-grey w3-margin-top" type="button"><i class="fa fa-user"></i> Generate Profile
+            Card</button>
+        </a>
+      </div>
+    </div>
+</body>
+</html>
