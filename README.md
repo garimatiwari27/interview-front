@@ -17,10 +17,10 @@ can be configured and reused easily, it's interactive and of course pretty.
 - Use your imagination and feel free to ask questions
 
 ## Solution
-Below is the guide to execute the solution and softwares required to execute the codebase.
+The following is a guide for running the solution and the software required to execute the codebase.
 
 ## Software Installation
-The following are the pre-requisites to edit and execute the codebase:
+Below are the pre-requisites to edit and execute the codebase:
   1. Visual Studio Code. (Editor for HTML and CSS)
      1. Get the  Live Server plugin
   2. Install Java
@@ -30,7 +30,7 @@ The following are the pre-requisites to edit and execute the codebase:
      3. All the required dependencies are mentioned in pom.xml
 
 ## Demonstration
-To access the HTML portfolio, the entry point is the "**index.html**" file. Open this file with Live server inside VS Code for the demo.
+To access the HTML portfolio, the entry point is the "**index.html**" file. Open this file with Live server inside VS Code for the demo and navigate the screen to follow actions.
 
 ## Testing
 To execute test cases, open the project "**SeleniumTesting**" inside the testing folder in eclipse and build the project.
