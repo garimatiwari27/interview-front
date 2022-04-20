@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="28166" started-at="2022-04-20T16:57:28Z" finished-at="2022-04-20T16:57:57Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="28166" started-at="2022-04-20T16:57:28Z" finished-at="2022-04-20T16:57:57Z">
+      <class name="ui.TestAutomationClass">
+        <test-method status="PASS" signature="driverSetup()[pri:0, instance:ui.TestAutomationClass@6f96c77]" name="driverSetup" is-config="true" duration-ms="5646" started-at="2022-04-20T16:57:28Z" description="Open Broswer Session" finished-at="2022-04-20T16:57:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetup -->
+        <test-method status="PASS" signature="downloadResumeTest()[pri:0, instance:ui.TestAutomationClass@6f96c77]" name="downloadResumeTest" duration-ms="1382" started-at="2022-04-20T16:57:34Z" description="This is a download resume function test" finished-at="2022-04-20T16:57:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- downloadResumeTest -->
+        <test-method status="PASS" signature="driverClosed()[pri:0, instance:ui.TestAutomationClass@6f96c77]" name="driverClosed" is-config="true" duration-ms="205" started-at="2022-04-20T16:57:35Z" description="Close Browser Session" finished-at="2022-04-20T16:57:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverClosed -->
+        <test-method status="PASS" signature="driverSetup()[pri:0, instance:ui.TestAutomationClass@6f96c77]" name="driverSetup" is-config="true" duration-ms="4901" started-at="2022-04-20T16:57:36Z" description="Open Broswer Session" finished-at="2022-04-20T16:57:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetup -->
+        <test-method status="PASS" signature="generateProfileCardTest()[pri:0, instance:ui.TestAutomationClass@6f96c77]" name="generateProfileCardTest" duration-ms="1558" started-at="2022-04-20T16:57:41Z" description="This is a generate profile card test" finished-at="2022-04-20T16:57:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateProfileCardTest -->
+        <test-method status="PASS" signature="driverClosed()[pri:0, instance:ui.TestAutomationClass@6f96c77]" name="driverClosed" is-config="true" duration-ms="137" started-at="2022-04-20T16:57:42Z" description="Close Browser Session" finished-at="2022-04-20T16:57:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverClosed -->
+        <test-method status="PASS" signature="driverSetup()[pri:0, instance:ui.TestAutomationClass@6f96c77]" name="driverSetup" is-config="true" duration-ms="4267" started-at="2022-04-20T16:57:42Z" description="Open Broswer Session" finished-at="2022-04-20T16:57:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetup -->
+        <test-method status="PASS" signature="verifyLinkedInNavigationTest()[pri:0, instance:ui.TestAutomationClass@6f96c77]" name="verifyLinkedInNavigationTest" duration-ms="376" started-at="2022-04-20T16:57:47Z" description="This is test linkedin navigation" finished-at="2022-04-20T16:57:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLinkedInNavigationTest -->
+        <test-method status="PASS" signature="driverClosed()[pri:0, instance:ui.TestAutomationClass@6f96c77]" name="driverClosed" is-config="true" duration-ms="140" started-at="2022-04-20T16:57:47Z" description="Close Browser Session" finished-at="2022-04-20T16:57:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverClosed -->
+        <test-method status="PASS" signature="driverSetup()[pri:0, instance:ui.TestAutomationClass@6f96c77]" name="driverSetup" is-config="true" duration-ms="3188" started-at="2022-04-20T16:57:47Z" description="Open Broswer Session" finished-at="2022-04-20T16:57:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetup -->
+        <test-method status="PASS" signature="verifyProfileCardLinkPage()[pri:0, instance:ui.TestAutomationClass@6f96c77]" name="verifyProfileCardLinkPage" duration-ms="1576" started-at="2022-04-20T16:57:50Z" description="This is to verify that profile page link was opened" finished-at="2022-04-20T16:57:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProfileCardLinkPage -->
+        <test-method status="PASS" signature="driverClosed()[pri:0, instance:ui.TestAutomationClass@6f96c77]" name="driverClosed" is-config="true" duration-ms="193" started-at="2022-04-20T16:57:52Z" description="Close Browser Session" finished-at="2022-04-20T16:57:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverClosed -->
+        <test-method status="PASS" signature="driverSetup()[pri:0, instance:ui.TestAutomationClass@6f96c77]" name="driverSetup" is-config="true" duration-ms="4173" started-at="2022-04-20T16:57:52Z" description="Open Broswer Session" finished-at="2022-04-20T16:57:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetup -->
+        <test-method status="PASS" signature="verifyTitleTest()[pri:0, instance:ui.TestAutomationClass@6f96c77]" name="verifyTitleTest" duration-ms="179" started-at="2022-04-20T16:57:56Z" description="This is verify title test" finished-at="2022-04-20T16:57:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitleTest -->
+        <test-method status="PASS" signature="driverClosed()[pri:0, instance:ui.TestAutomationClass@6f96c77]" name="driverClosed" is-config="true" duration-ms="190" started-at="2022-04-20T16:57:56Z" description="Close Browser Session" finished-at="2022-04-20T16:57:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverClosed -->
+      </class> <!-- ui.TestAutomationClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
